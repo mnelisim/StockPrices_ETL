@@ -1,0 +1,25 @@
+#python
+venv/
+__pycache__/
+*.pyc
+.env
+
+#logs
+logs/
+*.log
+
+#airflow
+airflow.db
+
+# Data files
+*.parquet
+*.csv
+
+# folders
+data/
+parquet/
+processed/
+raw/
+
+# OS files
+.DS_Store
