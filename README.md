@@ -1,5 +1,7 @@
 # StockPrices ETL - Big Data Engineering Pipeline
 
+[![StockPrices ETL CI/CD](https://github.com/mnelisim/StockPrices_ETL/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/mnelisim/StockPrices_ETL/actions/workflows/ci-cd.yml)
+
 This project demonstrates a **Big Data Engineering pipeline** for stock market data. It ingests historical stock price data, computes key financial metrics, validates data quality, and stores the results in PostgreSQL.
 
 The pipeline is built with **PySpark** for distributed computing, orchestrated using **Apache Airflow**.
